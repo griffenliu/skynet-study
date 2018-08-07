@@ -1,0 +1,21 @@
+-- ### 路径部分
+root = "/usr/local/soft/skynet/"
+p_root = "/home/lgf/workspace/skynet/skynet-study/day3/"
+
+p_luaservice = p_root.."?.lua"
+
+-- ### 工作线程
+daemon = nil
+thread = 2
+
+-- ### 集群配置
+harbor = 2
+standalone = "127.0.0.1:2014"
+master = "127.0.0.1:2014"
+address = "127.0.0.1:2527"
+
+-- ### 启动脚本
+start = "main"
+
+-- ### 默认配置
+include "../default.config"
